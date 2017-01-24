@@ -4,7 +4,6 @@ var Readable = require('stream').Readable
 var collect = require('collect-stream')
 
 tape('test', function (t) {
-  var result = []
   var s = dd(
     function (x) { return parseInt(x, 10) },
     function (a, b) { return b - a }
