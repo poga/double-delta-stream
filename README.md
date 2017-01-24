@@ -1,5 +1,7 @@
 # double-delta-stream
 
+[![NPM Version](https://img.shields.io/npm/v/double-delta-stream.svg)](https://www.npmjs.com/package/double-delta-stream) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 Calculate double-delta for incoming data. Useful for compressing time-series data.
 
 `npm i double-delta-stream`
