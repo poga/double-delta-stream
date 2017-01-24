@@ -1,0 +1,23 @@
+{
+  "name": "double-delta-stream",
+  "version": "1.0.0",
+  "description": "calculate double-delta for incoming data",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "time-series",
+    "compression",
+    "double-delta"
+  ],
+  "author": "Poga Po<poga.bahamut@gmail>",
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "collect-stream": "^1.2.1",
+    "tape": "^4.6.3"
+  }
+}
